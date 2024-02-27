@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
     <link rel="shortcut icon" href="developer.png" type="image/x-icon" />
+    <style>
+      #resume{
+        color: orange;
+        font-weight: bolder;
+      }
+      .heading{
+        color: cadetblue;
+        font-style: italic;
+      }
+    </style>
   </head>
   <body>
     <!-- Header section -->
     <header>
-      <p>
+      <p style="color: black; font-weight: bolder;">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -50,7 +60,7 @@
           />
         </svg>
         &nbsp; sushantjedhe9893@gmail.com &nbsp; &nbsp; &nbsp;
-        <a href="assets/resume.pdf" download>
+        <a href="assets/resume.pdf" download id="resume">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -83,9 +93,9 @@
     <section>
       <!-- HOME Section -->
       <section id="home">
-        <h2>Professional Summary</h2>
+        <h2 class="heading">Professional Summary</h2>
         <ul>
-          <li>
+          <li style="color: cadetblue;">
             Having I years of experience in developing Single page Web
             Applications using Angular 8 , HTML5 , CSS3, Bootstrap 5 ,
             JavaScript, TypeScript
@@ -113,7 +123,7 @@
     <hr />
     <!-- Technology stack section -->
     <section id="techStack">
-      <h2>My Technology stack is</h2>
+      <h2 class="heading">My Technology stack is</h2>
       <table border="1">
         <thead>
           <tr>
@@ -150,7 +160,7 @@
 
     <!-- Project Section -->
     <section id="project">
-      <h2>Projects</h2>
+      <h2 class="heading">Projects</h2>
       <p>
         <strong>Name: <u>Student Management</u></strong>
       </p>
@@ -170,7 +180,7 @@
         of academic activities like score card and attendance
       </p>
       <hr />
-      <h2><strong>Roles and Responsibilities</strong></h2>
+      <h2 class="heading"><strong>Roles and Responsibilities</strong></h2>
       <ul>
         <li>
           Designed and Implemented the user interface using HTML5 and CSS3
@@ -190,7 +200,7 @@
 
     <!-- Education Section -->
     <section id="education">
-      <h2>Education Details</h2>
+      <h2 class="heading">Education Details</h2>
       <table border="1">
         <thead>
           <tr>
