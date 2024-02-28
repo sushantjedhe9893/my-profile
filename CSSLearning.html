@@ -5,19 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Learning</title>
     <style>
-        #heading{color: blue; font-style: italic;}
+        #heading{
+           font-size: larger; 
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           text-align: center;
+           text-decoration: underline;
+           text-transform: uppercase;
+        }
         .line{color: yellowgreen; font-weight: bolder;}
         #line{color: brown; font-weight: 900;}
+        .tech{font-weight: bolder; color: cadetblue;}
+        #Agile{font-style: italic; font-weight: bold; background-color: aqua; color: black;}
+        #home{
+             border-left-style: dotted;
+            border-width: 5px;
+            border-color: red; 
+            border: 5px solid rgb(190, 187, 187);
+        }
     </style>
 </head>
 <body>
+  <section id="Home">
     <h2 id="heading">Professional Summary</h2>
         <ul>
           <li>
             Having I years of experience in developing Single page Web
-            Applications using Angular 8 , HTML5 , CSS3, Bootstrap 5 ,
-            JavaScript, TypeScript
-          </li>
+            Applications using <span class="tech">Angular 8 , HTML5 , CSS3, Bootstrap 5 ,
+              JavaScript, TypeScript
+            </li></span>
           <li class="line">
             Experience on working with version control system - GIT and GitHub
           </li>
@@ -30,11 +45,12 @@
           </li>
           <li class="line">
             Working exposure on ID's like VS Code and Notepad-FF Good working
-            experience under Agile methodologies environment Experience in using
+            experience under <span id="Agile">Agile methodologies</span> environment Experience in using
             Chrome Developer Tool for debugging and Troubleshooting the code
           </li>
           <li>Knowledge of NodeJS</li>
           <li id="line">Ability to work with people at all levels in the program</li>
         </ul>
+      </section>
 </body>
 </html>
