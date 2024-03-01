@@ -7,19 +7,26 @@
     <link rel="shortcut icon" href="developer.png" type="image/x-icon" />
     <!-- CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>   
     <style>
       #resume{
         color: orange;
         font-weight: bolder;
+        font-family: "Roboto", sans-serif;
       }
       .heading{
         color: cadetblue;
         font-style: italic;
+        font-family: "Roboto", sans-serif;
       }
       .header-info{
         margin-right: 40px;
         margin-left: 10px;
+        font-family: "Roboto", sans-serif;
       }
       #resume-text{
         margin-left: 10px;
@@ -28,26 +35,41 @@
         padding-right: 10px;
         margin-top: 10px;
         font-weight: bold;
+        font-family: "Roboto", sans-serif;
       }
       .insta{
         margin-right: 20px;
       }
       .list{
         padding-left: 10px;
-      }
-      .table{
-        padding: 10px;
+        font-family: "Poppins", sans-serif;
       }
       .Copyright{
         padding-top: 10px;
         font-style: italic;
+        font-family: "Poppins", sans-serif;
+      }
+      table, tr, th, td{
+        border: 2px solid orange;
+        border-collapse: collapse;
+        font-family: "Poppins", sans-serif;
+      }
+      td, th{
+        padding: 10px;
+        font-family: "Poppins", sans-serif;
+      }
+      #project{
+        font-family: "Poppins", sans-serif;
+      }
+      #team{
+        padding-right: 50px;
       }
     </style>
     </style>
   </head>
   <body>
     <!-- Header section -->
-    <header style="margin: 10px;">
+    <header style="margin: 10px;" >
       <i class="fa fa-user fa-lg" aria-hidden="true"></i>
       <span class="header-info">Gajanan Kharat </span> 
       <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>  
@@ -98,7 +120,7 @@
     <!-- Technology stack section -->
     <section id="techStack">
       <h2 class="heading">My Technology stack is</h2>
-      <table border="1px">
+      <table>
         <thead>
           <tr>
             <th class="table">Sr.No</th>
@@ -126,7 +148,7 @@
             <td class="table">4</td>
             <td class="table">Angular</td>
             <td class="table">3</td>
-          </tr>
+          </tr>   
         </tbody>
       </table>
     </section>
@@ -143,7 +165,7 @@
         HTMI, CSS, Bootstrap, GitHub, Agile and JIRA
       </p>
       <p>
-        <strong>Team Size:</strong> 06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="team"> <strong>Team Size: </strong>06</span>
         <strong>Duration:</strong>
         <i>2021-1<sup>1st</sup>-July till <u>present</u></i>
       </p>
@@ -175,7 +197,7 @@
     <!-- Education Section -->
     <section id="education">
       <h2 class="heading">Education Details</h2>
-      <table border="1px">
+      <table>
         <thead>
           <tr>
             <th class="table">Qualification</th>
