@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Card</title>
     <style>
-        #img{
-            max-width: 1000px;
+        #img1{
+            width: 400px;
             border-radius: 10%;
             display: inline-block;
         }
-       #head{
+       #head1{
         display: inline-block;
         font-weight: bolder;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,13 +25,35 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font: size 900px;;
        }
+       #head2{
+            color: aqua;
+        }
+        #info{
+            background-color: rgb(28, 27, 27);
+            width: 350px;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-top: 8px;
+            
+        }
+        #para{
+            color: aliceblue;
+            display: inline-block;
+            padding-right: 10px;
+          
+
+        }
+        #img2{
+            max-width: 100px;
+            border-radius: 50%;
+        }
        
     </style>
 </head>
 <body>
-    <img src="card.jpeg" alt="Developer" id="img">
+    <img src="card.jpeg" alt="Developer" id="img1">
     <section id="developer">
-    <h2 id="head">Compare Text Online</h2>
+    <h2 id="head1">Compare Text Online</h2>
     <ul id="list">
         <li>Compare text online free</li>
         <li>Supports large file comparison</li>
@@ -42,5 +64,11 @@
         <li>REST API</li>
     </ul>
 </section>
+<hr>
+<section id="info">
+    <h2 id="head2">2 Stock <br>Recommedation <br> Weekly </h2>
+    <p id="para">Midcap stocks Gaining <br>Momentum after 30-40% fall <br> from 52 Week High
+    </p>
+    <img src="th.jpeg" alt="" id="img2">
 </body>
 </html>
