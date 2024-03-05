@@ -8,20 +8,17 @@
 }
 /* Header section */
 header{
-    padding: 20px;
-    background-color: antiquewhite;
+    padding: 10px;
+    background-color: rgb(20, 13, 2);
+    color: aliceblue;
+    position: fixed;
 }
 #resume{
     color: orange;
     font-weight: bolder;
     font-family: "Roboto", sans-serif;
   }
-  .heading{
-    color: cadetblue;
-    font-style: italic;
-    font-family: "Roboto", sans-serif;
 
-  }
   .header-info{
     margin-right: 40px;
     margin-left: 10px;
@@ -30,12 +27,23 @@ header{
   #resume-text{
     margin-left: 10px;
   }
+    /* Professional Summary */
+    .heading{
+      color: cadetblue;
+      font-style: italic;
+      font-family: "Roboto", sans-serif;
+  
+    }
   /* Navigation Section */
 #navSection{
     padding: 10px;
     text-align: right;
     letter-spacing: 2px;
     font-weight: bolder;
+    background-color: aqua;
+    position: fixed;
+    top: 40px;
+   
 }
 #navSection li{
     display: inline;
@@ -47,18 +55,23 @@ header{
     font-weight: bold;
     font-family: "Roboto", sans-serif;
   }
+
+/* footer section  */
+
   .insta{
     margin-right: 20px;
   }
-  .list{
-    padding-left: 10px;
-    font-family: "Poppins", sans-serif;
-  }
+
+/* .Copyright section  */
+
   .Copyright{
     padding-top: 10px;
     font-style: italic;
     font-family: "Poppins", sans-serif;
   }
+
+  /* Technology stack section */
+  
   table, tr, th, td{
     border: 2px solid orange;
     border-collapse: collapse;
@@ -68,8 +81,21 @@ header{
     padding: 10px;
     font-family: "Poppins", sans-serif;
   }
+  .list{
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+
+/* Project Section */
+
   #project{
     font-family: "Poppins", sans-serif;
+  }
+  .prof li{
+    padding-top: 1rem;
+  }
+  #projDes::selection{
+    background-color: orange;
   }
   #team{
     padding-right: 50px;
@@ -83,12 +109,7 @@ header{
     .roles li{
       padding-top: 1rem;
     }
-    .prof li{
-      padding-top: 1rem;
-    }
-    #projDes::selection{
-    background-color: orange;
-  }
+   
   #listSummary li::marker{
     content: "✍️";
   }
@@ -96,4 +117,17 @@ header{
 #container{
     width: 800px;
     margin: 20px auto;
+}
+/* whatsappicon */
+
+.whatsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+/* chaticon */
+.chat{
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
 }
